@@ -1,0 +1,9 @@
+# Messages for Mortage calculator
+
+welcome: Welcome to the mortage calculator
+name: Please enter your name
+loan_amount: Please enter loan amount
+loan_duration: please enter loan duration
+name_output: You'r name is
+loan_amount_: You have entered #{loan_amount}
+loan_duration_in_years: You have entered #{loan_duration_in_years}

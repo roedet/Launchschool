@@ -1,0 +1,31 @@
+given the loan ammount is 500
+when the APR is 6% per year
+and the loan duration is 5 years
+then the monthly intrest rate is 6%/12
+and the loan duration is 5 * 12
+
+Start
+
+Ask the user for name
+  print name
+  
+Loop
+  Ask the user for ammount
+  SET loan_amount = amount
+  loan_amount.is_valid_number? #-> if true break
+end
+
+Loop
+  Ask the user for loan_duration_in_years
+  SET loan_duration_in_years = loan_duration_in_years
+  loan_duration_in_years.is_valid_number? #-> if true break
+end
+
+perform calculation
+
+print monthly_intrest_rate
+print loan_duration_in_years
+print loan_duration_in_months
+
+print "Do you need another calculation?"
+
